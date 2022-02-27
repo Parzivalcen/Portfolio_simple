@@ -137,7 +137,7 @@ utility clases
   border: 0;
 }
 body {
-  background: #c3c8cc;
+  background-color: rgb(223, 223, 223);
 }
 /* LANDING */
 
@@ -253,7 +253,7 @@ body {
   margin-top: 4rem;
 }
 .projects {
-  background-color: #c3c8cc;
+  background-color: rgb(223, 223, 223);
   min-height: 100vh;
 }
 .container--projects {
@@ -300,4 +300,29 @@ body {
   margin-top: 1rem;
   margin-right: 1.5rem;
   padding: 0.4rem;
+}
+/* 
+FOOTER
+ */
+.container--footer {
+  display: flex;
+  gap: 1rem;
+  width: 100vw;
+  margin-inline: auto;
+  justify-content: space-around;
+}
+.done {
+  color: #2e6171;
+}
+.git a {
+  text-transform: uppercase;
+  color: #2e6171;
+}
+.socials a {
+  color: #2e6171;
+}
+.socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3rem;
 }
