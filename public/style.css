@@ -162,7 +162,7 @@ body {
 .my-description h1 {
   margin-block: 4rem;
   font-weight: bold;
-  color: #234955;
+  color: var(--clr-primary-1);
 }
 .my-description p {
   line-height: 2;
@@ -183,7 +183,7 @@ body {
   }
 }
 .container .name {
-  color: #2e6171;
+  color: var(--clr-primary-1);
   font-weight: bold;
 }
 .contact {
@@ -215,7 +215,7 @@ body {
   }
 }
 .contact a {
-  color: #2e6171;
+  color: var(--clr-primary-1);
 }
 .empty {
   width: 600px;
@@ -223,10 +223,10 @@ body {
 /* BTN */
 .btn {
   background: transparent;
-  border: 2px solid white;
+  border: 2px solid var(--clr-primary-1);
   font-weight: bold;
   font-size: 1rem;
-
+  color: var(--clr-primary-1);
   border-radius: 10px;
   transition: all 0.3s;
 }
@@ -239,12 +239,13 @@ body {
 
 /* ABOUT ME */
 .about {
-  background-color: rgb(223, 223, 223);
+  background-color: var(--bg-primary-1);
 }
 .container--about {
   gap: 3rem;
 }
 .title--about h2 {
+  color: var(--clr-primary-1);
   text-align: center;
   font-size: 2rem;
   text-transform: uppercase;
@@ -273,7 +274,7 @@ body {
   }
 }
 .about-info span {
-  color: #234955;
+  color: var(--clr-primary-1);
 }
 .icons {
   display: flex;
@@ -292,11 +293,11 @@ body {
 }
 .icon i {
   font-size: 2rem;
-  color: #234955;
+  color: var(--clr-primary-1);
 }
 /* PROJECT CARDS  */
 .title h1 {
-  color: #234955;
+  color: var(--clr-primary-1);
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
@@ -304,7 +305,7 @@ body {
   margin-top: 4rem;
 }
 .projects {
-  background-color: rgb(223, 223, 223);
+  background-color: var(--bg-primary-1);
   min-height: 100vh;
   margin-block: auto;
 }
@@ -321,7 +322,7 @@ body {
   max-width: 358px;
   /* height: 416px; */
   /* max-height: 200px; */
-  border: 2px solid #2e6171;
+  border: 2px solid var(--clr-primary-1);
   border-radius: 10px;
   transition: all 0.5s;
 }
@@ -348,7 +349,7 @@ body {
     max-width: 358px;
     height: 416px;
     max-height: 416px;
-    border: 2px solid #2e6171;
+    border: 2px solid var(--clr-primary-1);
     border-radius: 10px;
     transition: all 0.5s;
   }
@@ -412,14 +413,14 @@ FOOTER
   }
 }
 .done {
-  color: #2e6171;
+  color: var(--clr-primary-1);
 }
 .git a {
   text-transform: uppercase;
-  color: #2e6171;
+  color: var(--clr-primary-1);
 }
 .socials a {
-  color: #2e6171;
+  color: var(--clr-primary-1);
 }
 .socials {
   display: flex;
