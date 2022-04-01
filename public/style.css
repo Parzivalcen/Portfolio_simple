@@ -315,7 +315,16 @@ body {
   /* min-height: 100vh;
   max-height: auto; */
   /* margin-block: auto; */
-  height: 260vh;
+  height: 290vh;
+}
+@media screen and (max-width: 360px) {
+  .projects {
+    background-color: var(--bg-primary-1);
+    /* min-height: 100vh;
+    max-height: auto; */
+    /* margin-block: auto; */
+    height: 300vh;
+  }
 }
 .container--projects {
   display: grid;
