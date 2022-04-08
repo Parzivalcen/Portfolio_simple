@@ -143,6 +143,7 @@ utility clases
 }
 body {
   background-color: var(--bg-primary-1);
+  display: grid;
 }
 /* LANDING */
 .container {
@@ -302,6 +303,7 @@ body {
   color: var(--clr-primary-1);
 }
 /* PROJECT CARDS  */
+
 .title h1 {
   color: var(--clr-primary-1);
   text-align: center;
@@ -315,7 +317,7 @@ body {
   /* min-height: 100vh;
   max-height: auto; */
   /* margin-block: auto; */
-  height: 290vh;
+  min-height: 100%;
 }
 @media screen and (max-width: 360px) {
   .projects {
@@ -323,7 +325,7 @@ body {
     /* min-height: 100vh;
     max-height: auto; */
     /* margin-block: auto; */
-    height: 300vh;
+    height: 100%;
   }
 }
 .container--projects {
