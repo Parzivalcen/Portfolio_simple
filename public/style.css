@@ -42,7 +42,7 @@ li {
 }
 body {
   line-height: 1.5;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   font-family: "Roboto", sans-serif;
 
   display: grid;
@@ -150,9 +150,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
   width: 100vw;
   align-items: center;
+}
+.container--landing{
+  height: 100vh;
 }
 @media screen and (min-width: 812px) {
   .container {
@@ -302,7 +304,9 @@ body {
   font-size: 2rem;
   color: var(--clr-primary-1);
 }
-/* PROJECT CARDS  */
+/*------------------
+ PROJECT CARDS  
+ ------------------*/
 
 .title h1 {
   color: var(--clr-primary-1);
@@ -314,28 +318,19 @@ body {
 }
 .projects {
   background-color: var(--bg-primary-1);
-  /* min-height: 100vh;
-  max-height: auto; */
-  /* margin-block: auto; */
-  min-height: 100%;
-}
-@media screen and (max-width: 360px) {
-  .projects {
-    background-color: var(--bg-primary-1);
-    /* min-height: 100vh;
-    max-height: auto; */
-    /* margin-block: auto; */
-    height: 100%;
-  }
 }
 .container--projects {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, 20rem);
+  grid-template-rows: repeat(auto-fit, 1fr);
   margin-inline: auto;
   justify-items: center;
-  gap: 2rem;
+  gap: 1rem;
+  height: initial;
+
 }
+
+
 .project {
   max-width: 20em;
   /* border: 2px solid var(--clr-primary-1); */
@@ -367,21 +362,7 @@ body {
   display: none;
 }
 @media screen and (min-width: 812px) {
-  .smallsc {
-    display: none;
-  }
-  .projects {
-    height: 150vh;
-  }
-  .container--projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    margin-inline: auto;
-    justify-items: center;
-    gap: 2rem;
-    margin-block: auto;
-  }
+
   .project {
     max-width: 358px;
     height: 416px;
@@ -394,8 +375,7 @@ body {
     display: inline-block;
   }
   .container--projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
     gap: 2rem;
     margin-block: auto;
   }
@@ -410,12 +390,11 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .container--projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    /* grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; */
   }
   .projects {
-    height: 100vh;
+    /* height: 100vh; */
   }
 }
 .project:hover {
