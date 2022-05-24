@@ -409,6 +409,34 @@ body {
   margin-right: 1.5rem;
   padding: 0.4rem;
 }
+/* -----------------
+MORE PROJECTS
+------------------ */
+@media screen and (min-width: 0px) {
+  .container--projects-page{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+    .container--projects-page .project{
+    min-width: 20rem;
+    max-width:none;
+    height:auto;
+  }
+  
+}
+@media screen and (min-width: 700px) {
+  
+  .container--projects-page .project{
+    min-width: 50rem;
+    max-width:none;
+    height:auto;
+  }
+  
+}
+
 /* 
 FOOTER
  */
